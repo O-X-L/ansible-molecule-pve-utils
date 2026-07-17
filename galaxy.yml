@@ -1,0 +1,23 @@
+---
+
+namespace: 'oxlorg'
+name: 'molecule_pve'
+version: 1.0.0
+readme: 'README.md'
+authors:
+  - 'Pascal Rath <rath+moleculepve@oxl.at>'
+description: "Helper-Module for Proxmox Molecule-Driver"
+license_file: 'LICENSE'
+tags:
+  - 'molecule'
+  - 'tools'
+dependencies:
+  "community.proxmox": ">=2.0.0"
+repository: 'https://github.com/O-X-L/ansible-molecule-pve-utils'
+documentation: 'https://ansible-molecule-pve.oxl.app'
+homepage: 'https://github.com/O-X-L/ansible-molecule-pve-utils'
+issues: 'https://github.com/O-X-L/ansible-molecule-pve-utils/issues'
+build_ignore: [
+  '.**', 'venv**',
+  'requirements*',
+]

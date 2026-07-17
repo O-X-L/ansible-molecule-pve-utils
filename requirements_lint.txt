@@ -1,0 +1,5 @@
+pylint
+yamllint
+ansible-lint
+
+pytest

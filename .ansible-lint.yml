@@ -1,0 +1,10 @@
+---
+
+skip_list:
+  - 'yaml'
+  - 'galaxy[no-changelog]'
+
+exclude_paths:
+  - 'tests/'
+  - 'venv/'
+  - '.venv/'
