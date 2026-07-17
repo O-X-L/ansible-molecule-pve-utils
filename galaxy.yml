@@ -18,6 +18,6 @@ documentation: 'https://ansible-molecule-pve.oxl.app'
 homepage: 'https://github.com/O-X-L/ansible-molecule-pve-utils'
 issues: 'https://github.com/O-X-L/ansible-molecule-pve-utils/issues'
 build_ignore: [
-  '.**', 'venv**',
+  '.**', 'venv**', 'Makefile', 'scripts**',
   'requirements*',
 ]
