@@ -1,5 +1,7 @@
 # Ansible-Molecule PVE-Driver - Util Modules
 
+[![Lint](https://github.com/O-X-L/ansible-molecule-pve-utils/actions/workflows/lint.yml/badge.svg?branch=latest)](https://github.com/O-X-L/ansible-molecule-pve-utils/actions/workflows/lint.yml)
+
 This repository holds Ansible Collection of Util-Modules for the Ansible-Molecule Proxmox-VE Driver.
 
 ## Proxmox-VE Driver for Ansible-Molecule
